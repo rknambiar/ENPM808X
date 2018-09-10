@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rohit/ENPM808X/Week 2/AcceleratedC++_6_9/app/main.cpp
+iostream
+-
+string
+-
+vector
+-
+numeric
+-
+
