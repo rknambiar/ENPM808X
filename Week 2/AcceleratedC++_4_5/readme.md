@@ -39,7 +39,7 @@ cd ~/workspace
 git clone --recursive https://github.com/rohit517/ENPM808X.git
 ```
 
-In your work directory, use cmake to create an Eclipse project for an [out-of-source build] of cpp-boilerplate
+In your work directory, use cmake to create an Eclipse project for an [out-of-source build] of AcceleratedC++_4_5
 
 ```
 cd ~/workspace
