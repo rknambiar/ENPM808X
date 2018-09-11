@@ -10,7 +10,7 @@ Accelerated C++ problem 3-5 - Program to compute grades.
 ## Standard install via command-line
 ```
 git clone --recursive https://github.com/rohit517/ENPM808X.git
-cd Week\ 2/AcceleratedC++_3_5/
+cd ENPM808X/Week\ 2/AcceleratedC++_3_5/
 mkdir build
 cd build
 cmake ..
@@ -45,7 +45,7 @@ In your work directory, use cmake to create an Eclipse project for an [out-of-so
 cd ~/workspace
 mkdir -p AcceleratedC++_3_5-eclipse
 cd AcceleratedC++_3_5-eclipse
-cmake -G "Eclipse CDT4 - Unix Makefiles" -D CMAKE_BUILD_TYPE=Debug -D CMAKE_ECLIPSE_VERSION=4.7.0 -D CMAKE_CXX_COMPILER_ARG1=-std=c++14 ../Week\ 2/AcceleratedC++_3_5/
+cmake -G "Eclipse CDT4 - Unix Makefiles" -D CMAKE_BUILD_TYPE=Debug -D CMAKE_ECLIPSE_VERSION=4.7.0 -D CMAKE_CXX_COMPILER_ARG1=-std=c++14 ../ENPM808X/Week\ 2/AcceleratedC++_3_5/
 ```
 
 ## Import
