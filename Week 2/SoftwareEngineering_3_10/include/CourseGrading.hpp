@@ -46,7 +46,7 @@ class CourseGrading {
   void changeStudentGrade(int studentId, double newGrade);
 
   /**
-   * @brief Changes student grade
+   * @brief Computes class GPA
    *
    * @return average class GPA
    */
