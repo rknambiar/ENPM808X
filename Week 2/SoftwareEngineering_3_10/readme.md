@@ -1,6 +1,4 @@
 # Software Engineering 3-10
-[![Build Status](https://travis-ci.org/dpiet/cpp-boilerplate.svg?branch=master)](https://travis-ci.org/dpiet/cpp-boilerplate)
-[![Coverage Status](https://coveralls.io/repos/github/dpiet/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/dpiet/cpp-boilerplate?branch=master)
 ---
 
 ## Overview
@@ -18,15 +16,6 @@ make
 Run tests: ./test/cpp-test
 Run program: ./app/shell-app
 ```
-
-## Building for code coverage (for assignments beginning in Week 4)
-```
-sudo apt-get install lcov
-cmake -D COVERAGE=ON -D CMAKE_BUILD_TYPE=Debug ../
-make
-make code_coverage
-```
-This generates a index.html page in the build/coverage sub-directory that can be viewed locally in a web browser.
 
 ## Working with Eclipse IDE ##
 
@@ -117,7 +106,3 @@ perspetive view (or Windows->Perspective->Open Perspective->C/C++).
     Project Explorer and choose Source -> Format
 
 [reference-id-for-eclipse-cpp-google-style]: https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-cpp-google-style.xml
-
-- Git
-
-    It is possible to manage version control through Eclipse and the git plugin, but it typically requires creating another project. If you're interested in this, try it out yourself and contact me on Canvas.
