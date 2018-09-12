@@ -1,5 +1,4 @@
 # Software Engineering 3-10
----
 
 ## Overview
 
