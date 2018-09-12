@@ -18,6 +18,9 @@
 #include <iostream>
 #include <vector>
 
+/**
+ * @brief      Class for course grading.
+ */
 class CourseGrading {
 
  private:
