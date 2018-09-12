@@ -36,6 +36,7 @@ int main()
 
   int i = 0;
   double number = 0.0;
+  cout << "Enter the numbers one by one: ";
   while (i < count) {
     cin >> number;
     numberVec.push_back(number);
