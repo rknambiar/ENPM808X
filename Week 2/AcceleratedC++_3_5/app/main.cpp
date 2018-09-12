@@ -65,7 +65,7 @@ int main()
     int count = 0;
     double x = 0.0;
     double totalGrade = 0.0;
-    cout << "Enter you homework grades one by one:";
+    cout << "Enter your 3 homework grades one by one:";
 
     while (count < HW_COUNT) {
       cin >> x;
