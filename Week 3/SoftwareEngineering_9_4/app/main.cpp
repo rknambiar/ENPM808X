@@ -28,11 +28,10 @@ using std::endl;
  *
  * @return position of string in the text as int. -1 if not found.
  */
-int getPositionFromText(const string& inputText, const string& stringToFind) {
+size_t getPositionFromText(const string& inputText,
+                           const string& stringToFind) {
   // Get position of the substring using find function.
-  int position = inputText.find(stringToFind);
-
-  return position;
+  return inputText.find(stringToFind);
 }
 
 /**
@@ -41,7 +40,7 @@ int getPositionFromText(const string& inputText, const string& stringToFind) {
  *   @return void
  */
 void printPosition() {
-  int position;  // Variable to store position after string search
+  size_t position;  // Variable to store position after string search
   string textInput = "1234567890";  // Input text
   string textToSearch = "67";  // String that will be searched for in the text
 
@@ -49,7 +48,7 @@ void printPosition() {
   position = getPositionFromText(textInput, textToSearch);
 
   // Print result to terminal
-  if (position != -1) {
+  if (position != string::npos) {
     cout << "Sequence: \"" << textToSearch << "\" is found at location "
         << position << endl;
   } else {
