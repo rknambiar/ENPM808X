@@ -50,9 +50,10 @@ void printPosition() {
   // Print result to terminal
   if (position != string::npos) {
     cout << "Sequence: \"" << textToSearch << "\" is found at location "
-        << position << endl;
+         << position << " in the input text \"" << textInput << "\"" << endl;
   } else {
-    cout << "Sequence not found in the text!" << endl;
+    cout << "Sequence: \"" << textToSearch
+         << "\" is not found in the input text \"" << textInput << "\"" << endl;
   }
 }
 
