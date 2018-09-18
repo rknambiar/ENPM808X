@@ -29,24 +29,9 @@ using std::endl;
  * @return position of string in the text as int. -1 if not found.
  */
 int getPositionFromText(const string& inputText, const string& stringToFind) {
-  // Get the length of input text and string.
-  int textLength = inputText.length();
-  int arrayToSearchLength = stringToFind.length();
+  // Get position of the substring using find function.
+  int position = inputText.find(stringToFind);
 
-  // Initialize position to -1.
-  int position = -1;
-
-  // Loop through the input text to find the location of string
-  for (int i = 0; i < textLength - arrayToSearchLength + 1; i++) {
-    bool found = true;
-    for (int j = 0; j < arrayToSearchLength; j++)
-      if (inputText[i + j] != stringToFind[j])
-        found = false;
-    if (found) {
-      position = i;
-      break;
-    }
-  }
   return position;
 }
 
@@ -58,7 +43,7 @@ int getPositionFromText(const string& inputText, const string& stringToFind) {
 void printPosition() {
   int position;  // Variable to store position after string search
   string textInput = "1234567890";  // Input text
-  string textToSearch = "34";  // String that will be searched for in the text
+  string textToSearch = "67";  // String that will be searched for in the text
 
   // Get the position of the string. Returns -1 if not found.
   position = getPositionFromText(textInput, textToSearch);
