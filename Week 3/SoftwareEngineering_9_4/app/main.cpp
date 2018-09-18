@@ -26,7 +26,7 @@ using std::endl;
  * @param inputText is the input text.
  * @param stringToFind is the string that will be searched in inputText.
  *
- * @return position of string in the text as int. -1 if not found.
+ * @return position of string in the text as size_t.
  */
 size_t getPositionFromText(const string& inputText,
                            const string& stringToFind) {
@@ -44,7 +44,7 @@ void printPosition() {
   string textInput = "1234567890";  // Input text
   string textToSearch = "67";  // String that will be searched for in the text
 
-  // Get the position of the string. Returns -1 if not found.
+  // Get the position of the string.
   position = getPositionFromText(textInput, textToSearch);
 
   // Print result to terminal
